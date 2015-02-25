@@ -19,6 +19,6 @@ define go::local($version = undef, $ensure = present) {
   file { "${name}/.go-version":
     ensure  => $ensure,
     content => "${version}\n",
-    replace => true,
+    replace => true
   }
 }

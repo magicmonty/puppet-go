@@ -1,7 +1,7 @@
 # Public: Set the global default go version
 #
 # Usage: go::global { '1.9.0': }
-class go::global($version = '1.1.1') {
+class go::global($version = '1.4.2') {
   require go
   $klass = join(['go', join(split($version, '[.]'), '_')], '::')
   require $klass
