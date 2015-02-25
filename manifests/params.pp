@@ -19,6 +19,6 @@ class go::params {
 
   $auto_switch  = true
 
-  $chgo_version = 'v0.1.5'
+  $chgo_version = 'v0.1.6'
   $chgo_source  = 'magicmonty/chgo'
 }
